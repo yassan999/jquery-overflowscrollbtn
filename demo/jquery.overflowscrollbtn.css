@@ -1,0 +1,48 @@
+.ofsrbase {
+    position: relative;
+}
+.ofsrwrap {
+    width: 90%;
+    margin: 1em auto;
+    overflow-x: auto;
+}
+.mousedownb {
+    text-align: center;
+    font-family: arial, sans-serif;
+    display: inline-block;
+    height: 1.2em;
+    width: 1.2em;
+    line-height: 1;
+    border-radius: 100%;
+    background-color: #1ea0c6;
+    opacity: 0.4;
+    color: #fff;
+    font-size: 2em;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    cursor: pointer;
+}
+.mousedowna {
+    text-align: center;
+    font-family: arial, sans-serif;
+    display: inline-block;
+    height: 1.2em;
+    width: 1.2em;
+    line-height: 1;
+    border-radius: 100%;
+    background-color: #1ea0c6;
+    opacity: 0.4;
+    color: #fff;
+    font-size: 2em;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+}
